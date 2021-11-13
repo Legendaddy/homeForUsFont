@@ -1,0 +1,10 @@
+export const FAMILLY_SUBMIT = "FAMILLY_SUBMIT";
+export const FAMILLY_GET_INFO = "FAMILLY_GET_INFO"; 
+export const FAMILLY_CREATED = "FAMILLY_CREATED"; // --> todo on api 
+export const FAMILLY_UPDATED = "FAMILLY_UPDATED"; // --> todo on api
+export const FAMILLY_DELETE = "FAMILLY_DELETE"; // --> todo on api
+export const FAMILLY_API_ERROR = "FAMILLY_ERROR";
+export const FAMILLY_ADD_USER = "FAMILLY_ADD_USER";
+export const FAMILLY_GET_USERS = "FAMILLY_GET_USERS";
+export const FAMILLY_REMOVE_USER = "FAMILLY_REMOVE_USER";
+export const FAMILLY_TRASH_DATA = "FAMILLY_TRASH_DATA";

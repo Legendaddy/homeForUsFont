@@ -1,0 +1,77 @@
+.sidebar {
+    background-color: var(--dark);
+    width: 80px;
+    height: 800px;
+    margin: auto 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s ease-out;
+}
+
+.isOpen {
+    width: 300px;
+}
+
+.filter {
+    display:none;
+    width: 100%;
+    margin: 5% auto;
+    padding: 0% 5%;
+    animation-delay: 1s;
+    transition: linear 1s;
+    animation: slideFromLeft 1s ease-in;
+    color: var(--secondary);
+
+}
+
+.filter-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: slideFromRight 1s ease-in;
+}
+
+.import {
+  border-radius: 15px;
+  background-color: #25252531;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  padding: 30px;
+}
+
+
+
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+

@@ -1,0 +1,80 @@
+.user-image {
+
+    background-image: url('../../images/Background1.jpg');
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /* Full height */
+    height: 100%;
+    width:100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Position text in the middle of the page/image */
+.user {
+    background-color: rgb(26,26,26); /* Fallback color */
+    background-color: rgba(26, 26, 26, 0.800); /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-columns: 1;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container_select {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 5px 20px;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, .5);
+}
+
+.message {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    z-index: 4;
+    transform: translate(-50%, 0%);
+    min-width: 400px;
+}
+
